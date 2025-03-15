@@ -1,0 +1,71 @@
+# ========================================
+# Git Ignore File for Proteus & STM32
+# ========================================
+
+# --- Proteus (ISIS & ARES) ---
+*.bak
+*.tmp
+*.dbk
+*.dmp
+*.sdf
+*.pdsbak
+*.pd$
+*.pdsprj.autosave
+*.log
+*.cfg
+*.ini
+*.vproj
+
+# --- STM32 Development ---
+# STM32CubeIDE and Keil uVision auto-generated files
+*.uvoptx
+*.uvprojx
+*.ioc
+*.bin
+*.hex
+*.elf
+*.axf
+*.map
+*.dep
+*.lst
+*.bak
+*.log
+*.out
+*.o
+*.d
+*.ddep
+*.suo
+*.sdf
+
+# STM32CubeIDE settings
+*.settings/
+.metadata/
+.cproject
+.project
+*.launch
+*.ide
+*.swd
+*.user
+
+# Build output directories
+Debug/
+Release/
+build/
+out/
+
+# Keil-specific
+*.plg
+*.crf
+*.htm
+*.uvgui.*
+*.dep
+
+# Temporary or local files
+*.swp
+*.swo
+*.swn
+*.dmp
+*.bkp
+*.cache
+*.tmp
+
